@@ -1,0 +1,28 @@
+ul{
+    list-style: none;
+}
+
+li{
+
+    display: inline;
+    /*&:hover{*/
+    /*    color:red;*/
+    /*}*/
+    /*&:focus {*/
+    /*    color: green;*/
+    /*}*/
+    /*&:target{*/
+    /*    color: green;*/
+    /*}*/
+ }
+
+
+
+
+.tab-item-true {
+    color:blue;
+}
+
+.tab-item-false {
+    color:black;
+}

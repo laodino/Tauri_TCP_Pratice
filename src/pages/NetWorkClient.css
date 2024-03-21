@@ -1,0 +1,38 @@
+div.dataReceived {
+    flex: 1;
+}
+div.dataSend{
+    flex:1;
+}
+div.serverSetting{
+    flex:1;
+}
+div.horizon{
+    display: flex;
+}
+
+ div.vertical{
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+ }
+
+ textarea.textSend{
+  height: 60%;
+ }
+
+ textarea.textReceived{
+     height: 80%;
+ }
+
+ label{
+     height: 20%;
+ }
+
+input{
+    width: 60%;
+}
+
+table{
+    width: 100%;
+}
