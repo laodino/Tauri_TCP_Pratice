@@ -3,10 +3,13 @@
 
 mod commands;
 mod tcp_client;
+mod config;
 
 fn main() {
     tauri::Builder::default()
-        .invoke_handler(tauri::generate_handler![commands::connect_to_server,
+        .invoke_handler(tauri::generate_handler![
+            commands::connect_to_server,
+            commands::save_config,
         // commands::send_message
         ])
         .run(tauri::generate_context!())

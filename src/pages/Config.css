@@ -1,0 +1,9 @@
+div.horizon{
+    display: flex;
+}
+
+div.vertical{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
